@@ -1,18 +1,14 @@
 import * as React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-interface componentNameProps {}
-
-const componentName = (props: componentNameProps) => {
+const Search = () => {
   return (
-    <View style={styles.container}>
-      <Text>componentName</Text>
+    <View>
+      <Text>Search</Text>
     </View>
   );
 };
 
-export default componentName;
+export default Search;
 
-const styles = StyleSheet.create({
-  container: {},
-});
+const styles = StyleSheet.create({});

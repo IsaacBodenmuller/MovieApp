@@ -1,18 +1,14 @@
 import * as React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-interface componentNameProps {}
-
-const componentName = (props: componentNameProps) => {
+const Saved = () => {
   return (
-    <View style={styles.container}>
-      <Text>componentName</Text>
+    <View>
+      <Text>Saved</Text>
     </View>
   );
 };
 
-export default componentName;
+export default Saved;
 
-const styles = StyleSheet.create({
-  container: {},
-});
+const styles = StyleSheet.create({});
